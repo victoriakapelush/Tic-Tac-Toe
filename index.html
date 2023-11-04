@@ -2,37 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
     <title>Tic-Tac-Toe</title>
 </head>
 <body>
-    <header>
-        <h1>Tic-Tac-Toe</h1>
-    </header>
     <main>
-        <h2>Player X's turn</h2>
-        <div class="d-flex justify-content-center" id="grid-container">
-            <div id="grid">
-                <div class="cell"></div>
-                <div class="cell" value="1"></div>
-                <div class="cell" value="2"></div>
-                <div class="cell" value="3"></div>
-                <div class="cell" value="4"></div>
-                <div class="cell" value="5"></div>
-                <div class="cell" value="6"></div>
-                <div class="cell" value="7"></div>
-                <div class="cell" value="8"></div>
-            </div>
-        </div>
-        <button type="button" class="button" id="button">Reset</button>
-    </main>
-    <footer>Copyright © 2022 <a href="https://github.com/victoriakapelush">victoriakapelush</a></footer>
+    <section>
+        <h1>Tic Tac Toe</h1>
+    </section>
+    <section>
+        <h3>Player <span id="changeTurns">X</span>'s turn</h3>
+    </section>
+    <section id="container">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </section>
+    <section>
+        <button type="button" class="btn btn-outline-danger" id="reset">Reset</button>
+    </section>
+</main>
 </body>
+<footer>Copyright © 2023 <a href="https://github.com/victoriakapelush">victoriakapelush</a></footer>
 </html>
